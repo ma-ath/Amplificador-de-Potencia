@@ -1,0 +1,25 @@
+** Profile: "Trabalho-sim"  [ c:\orcad\orcad_16.6_lite\eletronica-iv-trabalho-pspicefiles\trabalho\sim.sim ] 
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../eletronica-iv-trabalho-pspicefiles/trabalho/sim/tip30.lib" 
+.LIB "../../../eletronica-iv-trabalho-pspicefiles/trabalho/sim/tip29.lib" 
+.LIB "../../../eletronica-iv-trabalho-pspicefiles/trabalho/sim/diode.lib" 
+.LIB "../../../eletronica-iv-trabalho-pspicefiles/trabalho/sim/bipolar.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 50ms 1us 
+.FOUR 1khz 100 V([VOUT]) 
+.WCASE TRAN V YMAX VARY BOTH  HI 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Trabalho.net" 
+
+
+.END
