@@ -2025,9 +2025,9 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="Q3" pad="1"/>
 <contactref element="Q10" pad="B"/>
-<wire x1="70.8025" y1="50.4825" x2="64.77" y2="44.45" width="1" layer="16"/>
-<wire x1="79.6925" y1="50.4825" x2="70.8025" y2="50.4825" width="1" layer="16"/>
-<wire x1="81.28" y1="52.07" x2="79.6925" y2="50.4825" width="1" layer="16"/>
+<wire x1="41.5925" y1="45.4025" x2="64.77" y2="44.45" width="1" layer="16"/>
+<wire x1="50.4825" y1="45.4025" x2="41.5925" y2="45.4025" width="1" layer="16"/>
+<wire x1="81.28" y1="52.07" x2="50.4825" y2="45.4025" width="1" layer="16"/>
 <wire x1="70.8025" y1="54.9275" x2="69.85" y2="55.88" width="1" layer="16"/>
 <wire x1="72.7075" y1="54.9275" x2="70.8025" y2="54.9275" width="1" layer="16"/>
 <wire x1="87.63" y1="69.85" x2="72.7075" y2="54.9275" width="1" layer="16"/>
