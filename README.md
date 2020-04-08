@@ -1,4 +1,4 @@
 # Amplificador-de-Potencia
-Trabalho de Eletrônica IV - Amplificador de Potência
+Trabalho Final de Eletrônica IV - Amplificador de Potência
 
-エレクトリックＩＶ　－　パワー増幅器
+エレクトロニクス4期末宿題、パワー増幅器
